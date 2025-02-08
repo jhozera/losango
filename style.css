@@ -69,7 +69,7 @@ nav img{
 .button {
     display: flex;
     align-items: center;
-    background: #9d0d21;
+    background: #860808;
     color: white;
     text-decoration: none;
     padding: 10px 15px;
@@ -86,7 +86,7 @@ nav img{
 }
 
 .button:hover {
-    background: #00467c;
+    background: #014a80;
     transform: scale(1.05);
     transform-origin: center;
 }
@@ -135,7 +135,7 @@ nav img{
 }
 
 .lo1:hover, .lo2:hover, .lo3:hover, .lo4:hover{
-    background-color: #00467c;
+    background-color: #860808;
     transition: 3s;
 }
 
@@ -157,12 +157,6 @@ nav img{
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
-
-.serasa{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 
@@ -239,7 +233,7 @@ nav img{
 }
 
 .footer-content {
-    background-color: #232323;
+    background-color: #9d0d21;
     color: #ffffff;
     padding: 40px 20px;
     display: flex;
@@ -356,34 +350,6 @@ nav img{
     background-color: #890f07;
   }
   
- .serasa{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #e9e6e7;
-    margin-top: 100px;
- }
-
- .serasa-text{
-    display: flex;
-    flex-direction: column;
-    font-family: 'Montserrat', Arial, sans-serif;
-    gap: 30px;
-    padding-top: 20px;
- }
-
- .serasa-text h5{
-    background: linear-gradient(90deg, #d71920, #d71920, #faf1f1);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-
- }
-
- .serasa-text p{
-    font-size: 20px;
- }
 
  .img-nav{
     display: flex;
@@ -399,23 +365,6 @@ nav img{
     background: transparent;
 }
 
-.button-serasa{
-    text-decoration: none;
-    font-size: 25px;
-    background-color: #d71920;
-    text-align: center;
-    align-content: center;
-    width: 250px;
-    height: 40px;
-    border-radius: 20px;
-    color: white;
-    font-weight: 600;
-}
-
-
-.button-serasa:hover{
-    background-color: #860808;
-  }
 
 #menu {
     display: none;
@@ -468,21 +417,29 @@ nav img{
     height: auto;
     padding: 100px;
     gap: 100px;
+    background-color: #00467c;
+    margin: 0;
 }
 
 .banners img{
     width: 40%;
+    border-radius: 50px;
 }
 
 .banners-im{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 100px;
+
 }
 
 .text-banner{
     display: flex;
     flex-direction: column;
+    color: white;
+    font-family: "Montserrat", serif;
+
 }
 
 
@@ -490,14 +447,36 @@ nav img{
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
+    gap: 100px;
+
 }
 
 .banners-ix{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 100px;
 }
 
+
+.losango{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 100px;
+}
+
+.site-losango{
+    display: flex;
+    flex-direction: column;
+}
+
+.losango img{
+    width: 50%;
+    border-radius: 20%;
+
+}
 
 @media (min-width:1501px){
     .container {
