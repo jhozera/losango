@@ -251,13 +251,11 @@ nav img{
     color: #ffffff;
     padding: 40px 20px;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     font-family: Arial, sans-serif;
     margin: 0;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
   }
   
   .footer-text {
@@ -270,12 +268,14 @@ nav img{
     font-weight: bold;
     margin: 0 0 10px;
     color: #ffffff; 
+    text-align: center;
   }
   
   .footer-info {
     font-size: 14px;
     margin: 5px 0;
     color: #dcdcdc;
+    text-align: center;
   }
 
   .footer-bottom {
