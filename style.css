@@ -33,6 +33,20 @@ nav img{
     gap: 30px;
 }
 
+.image-mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.image-mobile img{
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
 .button-nav a{
     text-decoration: none;
     font-size: 20px;
@@ -639,6 +653,34 @@ nav img{
 
     }
 
+    .banners-im{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banners-im img{
+        width: 70%;
+    }
+
+    .banners-ip{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banners-ip img{
+        width: 70%;
+    }
+
+    .banners-ix{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banners-ix img{
+        width: 70%;
+    }
+
+   
 }
 
 /* Telas até 768px */
@@ -710,6 +752,33 @@ nav img{
     .container img{
         margin: 20px;
 
+    }
+
+    .banners-im{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banners-im img{
+        width: 100%;
+    }
+
+    .banners-ip{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banners-ip img{
+        width: 100%;
+    }
+
+    .banners-ix{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banners-ix img{
+        width: 100%;
     }
 
 }
@@ -788,7 +857,39 @@ nav img{
         padding: 20px;
     }
    
-   
+    .banners-im{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banners-im img{
+        width: 100%;
+    }
+
+    .banners-ip{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banners-ip img{
+        width: 100%;
+    }
+
+    .banners-ix{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banners-ix img{
+        width: 100%;
+    }
+
+    .image-mobile{
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    
    
 }
 
